@@ -1,0 +1,26 @@
+{
+  "name": "webwin11",
+  "version": "1.0.0",
+  "description": "Website based on the concept of Windows 11.",
+  "main": "index.html",
+  "dependencies": {
+    "serve": "^12.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve": "sass style.scss style.css  && serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rana1805/WebWin11.git"
+  },
+  "keywords": [
+    "Windows11"
+  ],
+  "author": "Shubhanshu Rana",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Rana1805/WebWin11/issues"
+  },
+  "homepage": "https://github.com/Rana1805/WebWin11#readme"
+}
