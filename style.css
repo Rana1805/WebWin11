@@ -1,21 +1,132 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
 }
-
-body {
-  overflow: hidden;
-  height: 100vh;
+ul{
+    list-style-type: none;
 }
-
-.taskbar {
-  background-color: #f3f3f3;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  z-index: 110;
-  justify-content: center;
+.icons{
+    color: white;
+    background-color:rgba(255, 255, 255, 0);
+    padding: 5px;
+    margin: 1%;
 }
-
-/*# sourceMappingURL=style.css.map */
+.icons:focus{
+    background-color:rgba(9, 226, 255, 0.527); 
+    border: 1px dashed whitesmoke;
+}
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover; 
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    height: 7%;
+}
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    min-height: 85%;
+    min-width: 150px;
+    max-width:300px;
+}
+button{
+    border: 0px solid;
+} 
+#start{
+    border: 0px solid;
+}
+.startmenu img{
+    border-radius: 15%;
+}
+.startmenu{
+    position: absolute; 
+    bottom: -655px;
+    transition: all 0.3s ease-in; 
+    border-radius: 2%;
+    height: 76%;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    background-color:rgb(246, 246, 246);
+    width: 43%;
+}   
+.all_apps{
+    background-color:rgb(246, 246, 246);
+    border: 2px solid gray;
+    float: right;
+    font-size:13px;
+    font-weight:500;
+    border-radius:10%;
+    padding: 6px;
+    margin:2%;
+}
+.all_apps:focus{
+    border: 2px solid rgba(128, 128, 128, 0.753);
+    margin:2%;
+}
+h3{
+    padding:0;
+    margin:3%;
+}
+#tray{
+    background-image: url('tray.jpg');
+    background-size: cover;
+    height:46px;
+    min-width: 30px;
+    background-repeat: no-repeat;
+    background-position: 0,0;
+    padding:3px;
+    margin:1%;
+}
+#network{
+    background-image: url('network.jpg');
+    background-size: cover;
+    height:46px;
+    min-width: 30px;
+    background-repeat: no-repeat;
+    padding:3px;
+    margin:1%;
+}
+#sound{
+    background-image: url('sound.jpg');
+    background-size: cover;
+    height:46px;
+    min-width: 30px;
+    background-repeat: no-repeat;
+    padding:3px;
+    margin:1%;
+}
+#notification{
+    background-image: url('notification.jpg');
+    background-size: cover;
+    height:46px;
+    min-width: 30px;
+    background-repeat: no-repeat;
+    padding:3px;
+    margin:1%;
+}
+#start-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+    padding: 0;
+    margin:0;
+}
+#pinned{
+    margin:0%;
+}
