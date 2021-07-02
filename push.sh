@@ -1,3 +1,3 @@
 git add .
-git commit -ma 
+git commit -m 'automated commit' 
 git push origin
