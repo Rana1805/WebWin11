@@ -9,6 +9,9 @@
     margin: 0;
     font-size: 2px;
 }
+#clock{
+    text-align:center;
+}
 ul{
     list-style-type: none;
 }

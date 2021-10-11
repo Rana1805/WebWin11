@@ -28,7 +28,7 @@ function startTime() {
     var curDay = today.getDate();
     var curMonth = today.getMonth();
     var curYear = today.getFullYear();
-    var date = curDay+" "+curMonth+" "+curYear;
+    var date = curDay+"-"+curMonth+"-"+curYear;
     document.getElementById("date").innerHTML = date;
 }
 function checkTime(i) {
