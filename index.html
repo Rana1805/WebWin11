@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body onload="startTime()">
     <ul>
         <li><button class="icons">
             <img src="chromeicon.png" width="84px" alt="Chrome">
@@ -24,7 +24,15 @@
         <button class="start" aria-label=""><img src="icons.PNG" alt=""></button>
         <button width="45px"><img src="edgeicon.png" width="34px" alt=""></button>
         <button width="45px"><img src="chromeicon.png" width="59px" alt=""></button>
-        <img class="right" src="taskbarright.PNG" alt="right">
+        <div class="right">
+            <div id="clock" height="45px">
+                <p id="time"></p>
+                <br>
+                <p id="day"></p>
+                <br>
+                <p id="date"></p>
+            </div>
+        </div>
     </div>
     <script src="script.js" defer></script>
     <div class="startmenu">
