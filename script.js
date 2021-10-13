@@ -1,7 +1,5 @@
 let start = document.getElementsByClassName("start")[0]
 let startmenu = document.getElementsByClassName("startmenu")[0]
-let tray = document.getElementsByClassName("tray")[1]
-let tray1 = document.getElementsByClassName("tray1")[1]
 
 start.addEventListener("click", ()=>{
     if(startmenu.style.bottom == "50px"){
@@ -11,16 +9,6 @@ start.addEventListener("click", ()=>{
         startmenu.style.bottom = "50px"
     }
 })
-
-tray1.addEventListener("click", ()=>{
-    if(tray.style.bottom == "50px"){
-        tray.style.bottom = "-655px"
-    }
-    else{
-        tray.style.bottom = "50px"
-    }
-})
-
 function startTime() {
     var today = new Date();
     var hr = today.getHours();
