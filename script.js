@@ -1,7 +1,7 @@
 let start = document.getElementsByClassName("start")[0]
 let startmenu = document.getElementsByClassName("startmenu")[0]
-let tray = document.getElementsByClassName("tray")[0]
-let tray1 = document.getElementsByClassName("tray1")[0]
+let tray = document.getElementsByClassName("tray")[1]
+let tray1 = document.getElementsByClassName("tray1")[1]
 
 start.addEventListener("click", ()=>{
     if(startmenu.style.bottom == "50px"){
