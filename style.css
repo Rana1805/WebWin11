@@ -67,6 +67,7 @@ body{
     height: 85%;
     min-width: 100px;
     max-width:300px;
+    float:right;
 }
 button{
     border: 0px solid;
