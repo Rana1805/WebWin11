@@ -4,7 +4,7 @@
     overflow: hidden;
     font-display: optional;
 }
-#time, #date, #day{
+#time, #date{
     padding: 0;
     margin: 0;
     font-size: 10px;

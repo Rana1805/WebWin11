@@ -21,10 +21,6 @@ function startTime() {
     document.getElementById("time").innerHTML = hr + " : " + min + " : " + sec;
     var time = setTimeout(function(){ startTime() }, 500);
 
-    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    var curWeekDay = days[today.getDay()]
-    document.getElementById("day").innerHTML = curWeekDay;
-
     var curDay = today.getDate();
     var curMonth = today.getMonth();
     var curYear = today.getFullYear();
