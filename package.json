@@ -8,14 +8,15 @@
   },
   "devDependencies": {},
   "scripts": {
-    "serve": "sass style.scss style.css  && serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Rana1805/WebWin11.git"
   },
   "keywords": [
-    "Windows11"
+    "Windows11",
+    "Win11 clone",
+    "WebWin11"
   ],
   "author": "Shubhanshu Rana",
   "license": "UNLICENSED",
